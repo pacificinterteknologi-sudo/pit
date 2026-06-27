@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pacific Inter Teknologi</title>
+  <meta name="description" content="Pacific Inter Teknologi - Solusi IT terpercaya untuk bisnis modern. Web development, mobile apps, dan konsultasi teknologi.">
+  <meta name="keywords" content="IT solutions, web development, mobile apps, technology consulting, pacific inter teknologi">
+  <meta name="author" content="Pacific Inter Teknologi">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="PACIFIC INTER TEKNOLOGI | Solusi IT Terpercaya">
+  <meta property="og:description" content="Solusi IT terpercaya untuk bisnis modern">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/logo.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  <link rel="shortcut icon" type="image/png" href="./assets/logo.png">
+  <link rel="apple-touch-icon" href="./assets/logo.png">
+  <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+  
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/logo-colors.css">
+
+  <style>
+    /* Reset Dasar agar Responsif */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box; /* Agar padding tidak merusak lebar elemen */
+    }
+
+    body {
+      overflow-x: hidden; /* Mencegah layar bergeser ke samping secara tidak sengaja */
+    }
+
+    /* Memastikan semua gambar tidak meluber */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header-wrapper" id="headerWrapper">
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="#" class="logo">
+            <img src="./assets/logo.png" alt="Pacific Inter Teknologi">
+            <span>PACIFIC INTER TEKNOLOGI</span>
+          </a>
+          <nav>
+            <ul class="nav-menu" id="navMenu">
+              <li><a href="#home" class="nav-link"><span>Beranda</span></a></li>
+              <li><a href="#value-prop" class="nav-link"><span>Mengapa Kami</span></a></li>
+              <li><a href="#services" class="nav-link"><span>Layanan</span></a></li>
+              <li><a href="#contact" class="nav-link"><span>Kontak</span></a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="hero-title">Membangun Fondasi Digital yang Tangguh untuk Bisnis Anda</h1>
+      <p class="hero-subtitle">Transformasi Digital Terintegrasi, Solusi IT Tepat Guna untuk Efisiensi Bisnis</p>
+      <p class="hero-description">
+        Kami membantu bisnis Anda mencapai efisiensi operasional, pertumbuhan yang berkelanjutan, dan kemudahan dalam manajemen digital. 
+        Dari web development hingga konsultasi teknologi, Pacific Inter Teknologi menjadi mitra strategis transformasi digital Anda.
+      </p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/6287899449489?text=Halo%20Pacific%20Inter%20Teknologi,%20saya%20ingin%20konsultasi%20gratis%20tentang%20solusi%20IT%20untuk%20bisnis%20saya" target="_blank" class="btn btn-primary">
+          <i class="fab fa-whatsapp"></i>
+          Konsultasi Gratis Sekarang
+        </a>
+        <a href="#services" class="btn btn-secondary">
+          <i class="fas fa-arrow-down"></i>
+          Lihat Layanan
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Proposition Section -->
+  <section class="value-prop" id="value-prop">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Mengapa Memilih Kami</h2>
+        <p class="section-subtitle">Kami memahami bahwa setiap bisnis unik, dan kami memberikan solusi yang dirancang khusus untuk kebutuhan Anda</p>
+      </div>
+      
+      <div class="value-grid">
+        <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="value-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3 class="value-title">Solusi Kustom</h3>
+          <p class="value-description">
+            Kami memahami bahwa setiap bisnis unik, dan kami memberikan solusi yang dirancang khusus untuk kebutuhan spesifik Anda. Tidak ada solusi satu ukuran untuk semua.
+          </p>
+        </div>
+        
+        <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="value-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3 class="value-title">Dukungan Berkelanjutan</h3>
+          <p class="value-description">
+            Kami tidak hanya membangun, tapi kami menjadi mitra teknologi yang siap mendukung operasional Anda kapan pun dibutuhkan. Support 24/7 untuk kebutuhan bisnis Anda.
+          </p>
+        </div>
+        
+        <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="value-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="value-title">Teknologi Modern</h3>
+          <p class="value-description">
+            Kami menggunakan standar teknologi terkini untuk memastikan website dan sistem Anda aman, cepat, dan responsif. Selalu update dengan tren industri.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Layanan Kami</h2>
+        <p class="section-subtitle">Solusi teknologi lengkap untuk kebutuhan bisnis Anda</p>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Web & App Development -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="service-title">Web & App Development</h3>
+          <p class="service-description">
+            Membangun kehadiran digital yang profesional dengan website modern dan aplikasi mobile yang user-friendly untuk menjangkau pelanggan lebih luas.
+          </p>
+        </div>
+        
+        <!-- Cloud & Infrastructure -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h3 class="service-title">Cloud & Infrastructure</h3>
+          <p class="service-description">
+            Menjamin sistem Anda stabil dan dapat diakses dari mana saja dengan solusi cloud computing yang aman, scalable, dan efisien untuk operasional bisnis.
+          </p>
+        </div>
+        
+        <!-- IT Consulting -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="service-title">IT Consulting</h3>
+          <p class="service-description">
+            Solusi untuk masalah teknis kompleks atau strategi digital bisnis dengan konsultasi strategis untuk optimasi infrastruktur IT dan transformasi digital.
+          </p>
+        </div>
+        
+        <!-- Cyber Security -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="service-title">Cyber Security</h3>
+          <p class="service-description">
+            Perlindungan data dan sistem keamanan komprehensif untuk menjaga aset digital bisnis Anda dari ancaman cyber.
+          </p>
+        </div>
+        
+        <!-- System Integration -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3 class="service-title">System Integration</h3>
+          <p class="service-description">
+            Integrasi sistem yang seamless untuk meningkatkan efisiensi dan produktivitas operasional bisnis Anda.
+          </p>
+        </div>
+        
+        <!-- Digital Transformation -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="service-title">Digital Transformation</h3>
+          <p class="service-description">
+            Transformasi digital end-to-end untuk membantu bisnis Anda beradaptasi dengan era teknologi modern dan tetap kompetitif.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <p class="section-subtitle">Mari diskusikan kebutuhan teknologi bisnis Anda</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info" data-aos="fade-up" data-aos-delay="100">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Telepon</h4>
+              <p>+62 878 9944 9489</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Email</h4>
+              <p>admin@pacificinterteknologi.online</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Alamat</h4>
+              <p>Jakarta, Indonesia</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form" data-aos="fade-up" data-aos-delay="200">
+          <form id="contactForm">
+            <div class="form-group">
+              <label class="form-label">Nama Lengkap</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Masukkan nama Anda" required>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="email@example.com" required>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Subjek</label>
+              <input type="text" id="subject" name="subject" class="form-input" placeholder="Subjek pesan" required>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Pesan</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Tuliskan pesan Anda" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-success" style="width: 100%;">
+              <i class="fab fa-whatsapp"></i>
+              Kirim via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./assets/logo.png" alt="Pacific Inter Teknologi" width="30" height="30">
+          <span>PACIFIC INTER TEKNOLOGI</span>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#value-prop">Mengapa Kami</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="footer-copyright">
+          © 2024 Pacific Inter Teknologi. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Elements -->
+  <div class="floating-whatsapp" id="floatingWhatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </div>
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Custom JavaScript -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
